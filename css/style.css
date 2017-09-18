@@ -170,6 +170,12 @@ section.san-francisco {
   width: 100%;
   height: auto;
   margin-top: 100px;
+
+  display: none;
+
+  @media (min-width: 768px) {
+    display: block;
+  }
 }
 .absolute.above {
   z-index: 2;
@@ -570,4 +576,31 @@ span.white {
 
 .fw-300 {
   font-weight: 300 !important;
+}
+
+
+header .title {
+  margin-top: 20px;
+
+  @media (min-width: 480px) {
+    margin-top: 80px;
+  }
+}
+
+.h-vh {
+  display: none;
+
+  @media (min-width: 480px) {
+    display: block;
+  }
+}
+
+.Menu-list {
+  // display: flex;
+  // flex-wrap: wrap;
+  // justify-content: space-around;
+  // align-items: center;
+
+  width: 100%;
+  text-align: center;
 }

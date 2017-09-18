@@ -172,8 +172,11 @@ section.san-francisco {
   margin-top: 100px;
 
   display: none;
+}
 
-  @media (min-width: 768px) {
+@media (min-width: 768px) {
+
+  .absolute {
     display: block;
   }
 }
@@ -581,26 +584,29 @@ span.white {
 
 header .title {
   margin-top: 20px;
+}
 
-  @media (min-width: 480px) {
-    margin-top: 80px;
-  }
+.Menu-list {
+  width: 100%;
+  text-align: center;
 }
 
 .h-vh {
   display: none;
-
-  @media (min-width: 480px) {
-    display: block;
-  }
 }
 
-.Menu-list {
-  // display: flex;
-  // flex-wrap: wrap;
-  // justify-content: space-around;
-  // align-items: center;
+@media (min-width: 480px) {
 
-  width: 100%;
-  text-align: center;
+  header .title {
+    margin-top: 80px;
+  }
+
+  .h-vh {
+    display: block;
+  }
+
+  .Menu-list {
+    width: auto;
+    text-align: right;
+  }
 }

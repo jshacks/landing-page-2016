@@ -610,3 +610,12 @@ header .title {
     text-align: right;
   }
 }
+
+#agenda,
+#mentors,
+#challenges,
+#sponsors,
+
+{
+  outline: none;
+}

@@ -137,9 +137,6 @@ header .title a {
   header .title {
     margin-top: 50px;
   }
-  .logo {
-    padding: 0 128px;
-  }
 }
 .grid {
   position: fixed;
